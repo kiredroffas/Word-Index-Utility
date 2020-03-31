@@ -51,6 +51,7 @@ public class WordList  //This is a linked list that stores WordListNode's
 	public void print()  //Traverses the wordList, prints sorted output,one word per line w/positions separated by spaces (increasing order)
 	{                    
 		WordListNode temp = wordSent.next;  //temp equals the word node after the sentinel
+		System.out.print("\n");
 		while(temp != null)  //While the list is not empty
 		{
 			System.out.print(temp.input);   //Print the word from the word node
