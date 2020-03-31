@@ -8,7 +8,7 @@ public class IndexUtility
 		
 		Scanner sc = new Scanner(System.in);  //Open a new scanner for stdin
 		String cmdLineInput;
-		System.out.println("Enter some words to be sorted, enter q when done");  //Promt user input
+		System.out.println("Enter some words to be sorted, enter q when done\n");  //Promt user input
 		while(true)  //Infinite loop
 		{
 			cmdLineInput = sc.nextLine();  //Reads in a string from stdin to cmdLineInput
